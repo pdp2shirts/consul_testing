@@ -1,0 +1,16 @@
+{
+    "service": {
+      "name": "example",
+      "port": 80,
+      "checks": [
+        {
+          "id": "example",
+          "name": "nginx TCP Check",
+          "tcp": "localhost:80",
+          "interval": "5s",
+          "timeout": "1s"
+        }
+      ]
+    }
+}
+
