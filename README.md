@@ -52,8 +52,8 @@ From the root of the repo, run this command to create the infrastructure in AWS 
 ./create-demo.sh
 ```
 
-  - This will create BIG-IP, consul, NGINX instances on AWS
-  - This will also seed a `terraform.tfvars` file in the `as3` directory for use in the next step
+  - This will create BIG-IP, Consul, NGINX instances on AWS
+  - This will also seed a `terraform.tfvars` file and a `bucket.tf` in the `as3` directory for use in the next step
   - It may take up to 5 minutes or after the run is complete for the environment to become ready. The URLs for the BIG-IP UI and the Consul server are defined in the Terraform output.  Please verify you can reach the BIG-IP and Consul server before proceeding.
 
 
