@@ -40,7 +40,7 @@ The `terraform` directory has tf files for creating instances for Consul, F5, IA
 - Clone the repository & change working directory to terraform
 ```
 git clone https://github.com/dgarrison63/consul_testing
-cd f5-terraform-consul-sd-webinar/terraform/
+cd consul_testing/terraform/
 ```
 
 - Modify `terraform.tfvars.example` and define a **prefix** to add to each of your resources that are created
