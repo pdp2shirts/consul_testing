@@ -43,8 +43,8 @@ git clone https://github.com/dgarrison63/consul_testing
 cd consul_testing/terraform/
 ```
 
-- Modify `terraform.tfvars.example` and define a **prefix** to add to each of your resources that are created
-- Modify `terraform.tfvars.example` and define the **region** to identify the AWS region where your resources will be created
+- Modify `terraform.tfvars.example` and define a **prefix** to add to each of your resources that are created in AWS to help uniquely identify them
+- Modify `terraform.tfvars.example` and define the **region** to specify the AWS region where your resources will be created. Examples of AWS regions are "us-east-1", "us-west-1", etc.
 - Rename `terraform.tfvars.example` to `terraform.tfvars`
 
 From the root of the repo, run this command to create the infrastructure in AWS using Terraform

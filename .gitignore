@@ -11,3 +11,4 @@
 *.rpm
 *.code-workspace
 *.bkup
+.github/workflows/wip/*
