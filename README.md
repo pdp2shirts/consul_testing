@@ -13,13 +13,14 @@ This repo comprises two main functions:
 
 - Initial provisioning of the of the infrastructure in AWS\
     **Prerequisites:**
-    - Amazon Web Services account\
+    - Amazon Web Services account
     - Computer with Git installed
+    - Computer with Terraform installed. Please see this link for how to install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
 - Github Actions workflows for ongoing operations\
     **Prerequisites:**
-    - Amazon Web Services account\
-    - Computer with Git installed\
+    - Amazon Web Services account
+    - Computer with Git installed
     - Github accouunt
 
 ## Provision Infrastructure
