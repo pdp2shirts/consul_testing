@@ -99,6 +99,8 @@ Push your local Git repo to your emtpy Github repo. Complete the following steps
 ```
 Change directory to the root of your local Git repo
 git remote add origin https://github.com/**myAccount**/**myRepo**
+git add s3/s3_bucket_params.json
+git commit -m "added s3 bucket parameter file"
 git push -u origin master
 ```
 
