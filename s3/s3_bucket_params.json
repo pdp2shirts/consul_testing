@@ -1,0 +1,7 @@
+ { 
+  "bucket": {
+    "name": "dgarrison-testing3-consul-sd",
+    "key": "deploy-infrastructure",
+    "region": "us-east-1"
+  }
+}

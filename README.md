@@ -99,6 +99,8 @@ Push your local Git repo to your emtpy Github repo. Complete the following steps
 ```
 Change directory to the root of your local Git repo
 git remote add origin https://github.com/**myAccount**/**myRepo**
+git add s3/s3_bucket_params.json
+git commit -m "added s3 bucket parameter file"
 git push -u origin master
 ```
 
@@ -109,7 +111,7 @@ Prerequisites:
   - Need to create two Github Secrets:
     + AWS_ACCESS_KEY_ID = `<AWS Access Key>`
     + AWS_SECRET_ACCESS_KEY = `<AWS Secret Access Key>`
-\
+|
 For information on how to create Github secrets, please see [Github Secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)  
 
 There are four workflows defined:
