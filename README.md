@@ -109,7 +109,7 @@ Prerequisites:
   - Need to create two Github Secrets:
     + AWS_ACCESS_KEY_ID = `<AWS Access Key>`
     + AWS_SECRET_ACCESS_KEY = `<AWS Secret Access Key>`
-\
+|
 For information on how to create Github secrets, please see [Github Secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)  
 
 There are four workflows defined:
